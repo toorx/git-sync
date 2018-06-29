@@ -1,0 +1,14 @@
+{
+  "priority" : true,
+  "skip_question" : false,
+  "postCommands" : true,
+  "checkCommandInit" : ["git"],
+  "async" : {
+    "active" : true,
+    "concurrency" : 10
+  },
+  "git" : {
+    "cacheCredential" : true,
+    "cacheCredentialTimeout" : 36000
+  }
+}
