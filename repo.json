@@ -1,38 +1,42 @@
 {
-  "title": "test1",
-  "group": "personale",
-  "priority": 1,
-  "uri": "https://github.com/example/test1.git",
-  "gitAction": "fetch",
-  "destination": "./repos/personale/test1",
-  "active": true
-},
-{
-  "title": "test2",
-  "group": "personale",
-  "priority" : 2,
-  "uri": "https://github.com/example/test2.git",
-  "gitAction": "pull",
-  "destination": "./repos/personale/test2",
-  "active": true
-},
-{
-  "title": "work1",
-  "group": "work",
-  "priority" : 1,
-  "uri": "https://github.com/example/.gitwork1.git",
-  "gitAction": "pull",
-  "destination": "./repos/work/work1",
-  "postCommand": ["composer install"],
-  "active": true
-},
-{
-  "title": "work2",
-  "group": "work",
-  "priority": 2,
-  "uri" : "https://github.com/example/.gitwork2.git",
-  "gitAction": "pull",
-  "destination": "./repos/work/work2",
-  "postCommand": ["composer install"],
-  "active": true
-},
+  "repo": [
+    {
+      "title": "test1",
+      "group": "personale",
+      "priority": 1,
+      "uri": "https://github.com/example/test1.git",
+      "gitAction": "fetch",
+      "destination": "./repos/personale/test1",
+      "active": true
+    },
+    {
+      "title": "test2",
+      "group": "personale",
+      "priority" : 2,
+      "uri": "https://github.com/example/test2.git",
+      "gitAction": "pull",
+      "destination": "./repos/personale/test2",
+      "active": true
+    },
+    {
+      "title": "work1",
+      "group": "work",
+      "priority" : 1,
+      "uri": "https://github.com/example/.gitwork1.git",
+      "gitAction": "pull",
+      "destination": "./repos/work/work1",
+      "postCommand": ["composer install"],
+      "active": true
+    },
+    {
+      "title": "work2",
+      "group": "work",
+      "priority": 2,
+      "uri" : "https://github.com/example/.gitwork2.git",
+      "gitAction": "pull",
+      "destination": "./repos/work/work2",
+      "postCommand": ["composer install"],
+      "active": true
+    }
+  ]
+}
