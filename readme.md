@@ -111,8 +111,9 @@ php go.php
 
 Sarà possibile selezionare una o più repo o tutte.
 
-gif animata console.
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+gif console.
+
+![Alt Text](https://media.giphy.com/media/ybTipt2JVdsSoCoHj8/giphy.gif)
 
 ## Running parameter mode
 
@@ -123,7 +124,7 @@ php go.php -h
 ```
 
 immagine di esempio comando help
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https://preview.ibb.co/mayjsJ/php_git_sync_help.png)
 
 di default, lo script cerca il config.json e il file repo.json sulla stessa cartella dello script,
 ma è possibile utilizzare altri file passandoli nei parametri:
