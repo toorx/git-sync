@@ -150,7 +150,7 @@ class Go
             })->then(function ($output) use($repo) {
                 echo $this->c->colorize('<success>Ok -> <bold>'.$output.'</bold></success>').PHP_EOL;
             })->catch(function (Throwable $exception) use($repo) {
-                echo $this->c->colorize('<success>'.$exception->getMessage().'</success>').PHP_EOL;
+                echo $this->c->colorize('<error><bold>'.$repo->title. '</bold> -> '. $exception->getMessage().'</error>').PHP_EOL;
                 return false;
             });
         }
